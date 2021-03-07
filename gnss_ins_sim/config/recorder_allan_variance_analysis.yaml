@@ -1,0 +1,15 @@
+# motion def:
+motion_file: allan_variance_analysis.csv
+# IMU params:
+imu: 1
+# sample frequency of simulated GNSS/IMU data:
+sample_frequency:
+    imu: 100.0
+    gps: 10.0
+# topic name:
+topic_name_imu: /sim/sensor/imu
+topic_name_pos: /sim/sensor/pos
+# output rosbag path:
+output_path: /home/xkhuskit/xk_workspaces/workspace/assignments/05-imu-navigation/src/gnss_ins_sim/Generated_file
+# output name:
+output_name: data.bag
